@@ -2,11 +2,13 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import NavBar from "./newbuttons";
 
 //create your first component
 const Home = () => {
 	return (
 		<div>
+			<NavBar></NavBar>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
